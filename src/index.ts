@@ -5,7 +5,7 @@ import {
   useIsSingleSelection,
   useSelectionSize,
 } from "./queries";
-import { useClearSelection, useSelectionEvent } from "./store";
+import { useClearSelection, useSelectionEvent, getSelection } from "./store";
 
 export {
   useIsSelected,
@@ -15,4 +15,5 @@ export {
   useSelectionSize,
   useSelectionEvent,
   useClearSelection,
+  getSelection,
 };

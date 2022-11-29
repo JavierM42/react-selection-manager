@@ -129,4 +129,11 @@ const useClearSelection = () => useSelectionStore((state) => state.clear);
 const useSelectionEvent = () =>
   useSelectionStore((state) => state.selectionEvent);
 
-export { useSelectionStore, useClearSelection, useSelectionEvent };
+const getSelection = () => useSelectionStore.getState().selection;
+
+export {
+  useSelectionStore,
+  useClearSelection,
+  useSelectionEvent,
+  getSelection,
+};
