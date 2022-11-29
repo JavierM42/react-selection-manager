@@ -2,6 +2,8 @@
 
 A React library to manage selection of arbitrary objects in web apps, with support for range (shift key) and toggle (control key) selection.
 
+[Live demo](https://codesandbox.io/s/react-selection-manager-demo-zujkik?file=/src/App.js)
+
 ## Installation
 
 ```

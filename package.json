@@ -1,6 +1,6 @@
 {
   "name": "react-selection-manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Manage selection of arbitrary elements with range (shift) and toggle (control) selection support.",
   "main": "lib/index.cjs",
   "module": "lib/index.esm.js",
