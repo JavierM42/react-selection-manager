@@ -38,8 +38,9 @@ Additionally, there's some other helper hooks:
 - `useIsSelectionEmpty()`: returns `true` if the selection is empty.
 - `useIsSingleSelection()`: returns `true` if the selection has exactly one element.
 - `useIsMultiSelection()`: returns `true` if there are multiple selected elements.
+- `useSelection`: returns the entire selection. Use the other hooks where possible, as this one will trigger a re-render every time the selection changes.
 
-A non-reactive `getSelection()` function is also exported. Use this function inside event handlers to get the entire selection in order to operate with it. A reactive way to subscribe to the whole selection is not provided because it can easily harm performance.
+A non-reactive `getSelection()` function is also exported. Use this function inside event handlers to get the entire selection in order to operate with it without causing re-renders.
 
 ## Why do I need a library for this?
 

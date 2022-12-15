@@ -131,8 +131,11 @@ const useSelectionEvent = () =>
 
 const getSelection = () => useSelectionStore.getState().selection;
 
+const useSelection = () => useSelectionStore((state) => state.selection);
+
 export {
   useSelectionStore,
+  useSelection,
   useClearSelection,
   useSelectionEvent,
   getSelection,
